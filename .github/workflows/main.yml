@@ -24,5 +24,5 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          vtolao/kube-news:v1
+          vtolao/kube-news:${{github.run_number}}
           vtolao/kube-news:latest
